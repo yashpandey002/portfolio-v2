@@ -1,13 +1,15 @@
 "use client";
 
+import Link from "next/link";
 import { useState } from "react";
 import { LuMenu, LuX } from "react-icons/lu";
+import { SocialLinks } from "./social-links";
 
 const links = [
-  { href: "#experience", label: "experience" },
-  { href: "#projects", label: "project" },
-  { href: "#about", label: "about me" },
-  { href: "#contact", label: "contact" },
+  { href: "#experience", label: "Experience" },
+  // { href: "#projects", label: "project" },
+  { href: "#about", label: "About Me" },
+  { href: "#contact", label: "Contact" },
 ] as const;
 
 export function Nav() {
@@ -16,9 +18,11 @@ export function Nav() {
   return (
     <nav className="border-b border-line">
       <div className="mx-auto flex max-w-245 items-center justify-between px-7 py-5.5">
-        <div className="text-[13px] tracking-[0.04em] text-text-dim">
-          yash<span className="text-sage">.</span>pandey
-        </div>
+        <Link href="/">
+          <div className="font-medium tracking-[0.04em] text-text-dim hover:text-sage transition-all duration-150">
+            YP()
+          </div>
+        </Link>
 
         <div className="flex items-center gap-3.5 sm:gap-5">
           <div className="hidden items-center gap-6 text-[13px] text-text-dim md:flex">
@@ -32,9 +36,15 @@ export function Nav() {
               </a>
             ))}
           </div>
+          <div>
+            <SocialLinks
+              className="sm:ml-1 sm:border-l sm:border-line sm:pl-5"
+              iconSize={18}
+            />
+          </div>
 
           <a
-            className="inline-block rounded-sm border border-sage bg-sage px-3.5 py-1.5 text-[12.5px] text-background no-underline transition-[border-color,background-color] duration-150 ease-in-out hover:border-sage-hover hover:bg-sage-hover"
+            className="rounded-sm border border-sage bg-sage px-3.5 py-1.5 text-[12.5px] text-background no-underline transition-[border-color,background-color] duration-150 ease-in-out hover:border-sage-hover hover:bg-sage-hover hidden"
             href="/resume.pdf"
             rel="noopener noreferrer"
             target="_blank"

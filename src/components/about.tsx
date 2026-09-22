@@ -11,37 +11,24 @@ export function About() {
             Hey, I&apos;m Yash, a software developer based in Bengaluru, India.
           </p>
           <p>
-            I’ve always been curious about *why* things work the way they do. I
-            think that curiosity is what eventually pulled me toward computer
-            science.
-          </p>
-          <p>
-            My first real curiosity about programming started around 10th grade,
-            when I began wondering how websites actually worked. Around the same
-            time, I started learning Python at school.
+            I love solving real-world problems, or at least trying to. I’ve
+            always been curious about why things work the way they do and loved
+            going down the rabbit hole. I think that is what eventually pulled
+            me toward computer science.
           </p>
           <p>
             One of the first programs I built was a simple marks calculator for
             my mom, who used to manually calculate and maintain her students’
             marks on paper. I wrote a small Python program in a Jupyter Notebook
             to keep track of the marks and calculate the totals, and it made me
-            realize for the first time that programming could be more than
-            something to learn—it could be a tool to solve real problems.
+            realize for the first time how programming could be a tool to solve
+            real problems.
           </p>
           <p>
-            Since then, I’ve been learning and working continuously and trying
-            to understand what happens beneath the abstractions - from building
-            web applications to learning more about systems and the fundamentals
-            of computer science.
-          </p>
-          <p>
-            Currently I’m exploring mobile development, because it’s an area I
-            haven’t had much hands-on experience with yet.
-          </p>
-          <p>
-            And when I’m not writing code, you’ll probably find me playing
-            football, hanging out with friends, listening to music, or just
-            being curious about something completely unrelated to software.
+            Since then, I’ve been learning and working continuously, trying to
+            understand what happens beneath the abstractions—from building web
+            applications to learning more about systems and the fundamentals of
+            computer science.
           </p>
         </div>
       </div>

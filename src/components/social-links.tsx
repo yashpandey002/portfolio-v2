@@ -12,7 +12,7 @@ export function SocialLinks({ className = "", iconSize = 16 }: SocialLinksProps)
         <a
           key={label}
           aria-label={label}
-          className="text-text-faint transition-colors duration-150 hover:text-sage"
+          className="text-text-dim transition-colors duration-150 hover:text-sage"
           href={href}
           rel="noopener noreferrer"
           target="_blank"

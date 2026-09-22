@@ -3,8 +3,8 @@ import { PitchSvg } from "./pitch-svg";
 export function Hero() {
   return (
     <header className="pb-18 pt-10">
-      <div className="mx-auto max-w-245 px-7">
-        <div className="relative rounded-[20px] border-[1.5px] border-dashed border-line p-3.5">
+      <div className="mx-auto max-w-245 px-4 sm:px-7">
+        <div className="relative sm:rounded-[20px] sm:border-[1.5px] sm:border-dashed sm:border-line sm:p-3.5">
           <div className="relative flex flex-col overflow-hidden rounded-[14px] bg-bg-raised">
             <PitchSvg />
             <div className="relative w-full px-6 py-8 sm:px-11 sm:pb-9.5 sm:pt-10">
@@ -32,7 +32,7 @@ export function Hero() {
                 </div>
                 <div>
                   <span className="mr-1.5 text-slate-blue">status</span>
-                  SDE @ SnowmountainAI
+                  Product Engineer @ SnowmountainAI
                 </div>
               </div>
               <div className="flex flex-wrap items-center gap-x-5 gap-y-3.5">

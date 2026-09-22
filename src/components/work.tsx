@@ -158,7 +158,7 @@ export function Work() {
   }
 
   return (
-    <section className="py-18" id="experience">
+    <section className="py-10 sm:py-18" id="experience">
       <div className="mx-auto max-w-245 px-7">
         <p className="mb-5.5 flex items-center gap-2.5 text-xs tracking-[0.06em] text-slate-blue">
           <span className="inline-block h-px w-4.5 bg-slate-blue" />

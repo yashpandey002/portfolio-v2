@@ -45,7 +45,7 @@ function EmailCopyButton() {
 
 export function Contact() {
   return (
-    <section className="py-28" id="contact">
+    <section className="py-14 sm:py-28" id="contact">
       <div className="mx-auto max-w-245 px-7">
         <div className="rounded-sm border border-line">
           <div className="flex flex-col items-start gap-10 p-6 sm:p-8 lg:flex-row lg:items-center lg:justify-between lg:gap-14">

@@ -77,7 +77,7 @@ export function Contact() {
               <EmailCopyButton />
             </div>
 
-            <div className="w-full overflow-hidden rounded-[14px] bg-bg-raised lg:w-auto lg:min-w-70">
+            <div className="hidden w-full overflow-hidden rounded-[14px] bg-bg-raised lg:block lg:w-auto lg:min-w-70">
               <JuggleSvg />
             </div>
           </div>

@@ -15,9 +15,9 @@ const ibmPlexMono = IBM_Plex_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Yash Pandey — Software Developer",
+  title: "Yash Pandey — Full-stack Developer",
   description:
-    "A software developer who loves building things and seeing them come to life. Full-stack / platform engineer based in Bengaluru, currently SDE at SnowmountainAI.",
+    "A software developer who loves building things and seeing them come to life. Full-stack / platform engineer based in Bengaluru, currently Product Engineer at SnowmountainAI.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

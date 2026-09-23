@@ -17,9 +17,9 @@ export function Hero() {
                 </span>
               </h1>
               <p className="mb-7 max-w-180 text-[17px] leading-[1.55] text-text-dim">
-                A software developer who loves building things and seeing them
-                come to life. I enjoy working across the stack, learning new
-                technologies, and digging deeper whenever I can.
+                I'm a software developer who loves building things and seeing
+                them come to life. I enjoy working across the stack, learning
+                new technologies, and digging deeper whenever I can.
               </p>
               <div className="mb-8.5 flex flex-wrap gap-x-6 gap-y-3.5 text-[12.5px] text-text-dim sm:gap-7">
                 <div>

@@ -48,7 +48,7 @@ export function JuggleSvg() {
 
     function kick(c: Contact) {
       const el = c === "left" ? leftLeg : c === "right" ? rightLeg : upper;
-      if (!el.animate) return;
+      if (!el || !el.animate) return;
       const deg = c === "left" ? 18 : c === "right" ? -18 : -10;
       el.animate(
         [
@@ -61,6 +61,7 @@ export function JuggleSvg() {
     }
 
     function setBall(x: number, y: number) {
+      if (!ball) return;
       ball.setAttribute(
         "transform",
         `translate(${x.toFixed(1)},${y.toFixed(1)})`,
